@@ -15,4 +15,4 @@ O site pode ser acessado pelo link: [Mariana Gomes](https://marianasgit.github.i
 * VSCODE
 
 # Screenshot
-![](screenshot.PNG)
+![](Captura.PNG)

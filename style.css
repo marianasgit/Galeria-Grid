@@ -11,6 +11,26 @@ body{
     color: #fff;
     display: flex;
     flex-direction: column;
+    background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #bae0e6 0,
+    #bbe0e9 6.25%,
+    #bcdfeb 12.5%,
+    #bedfed 18.75%,
+    #c0deef 25%,
+    #c3ddf0 31.25%,
+    #c6dcf1 37.5%,
+    #c9dbf2 43.75%,
+    #cddaf2 50%,
+    #d1d9f2 56.25%,
+    #d5d8f1 62.5%,
+    #d9d7f0 68.75%,
+    #ddd6ee 75%,
+    #e1d5ed 81.25%,
+    #e4d4ea 87.5%,
+    #e8d3e8 93.75%,
+    #ebd2e5 100%
+  );
 }
 
 header{
@@ -18,6 +38,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
 }
 
 main{
@@ -25,7 +47,26 @@ main{
 }
 
 .galeria-container{
-    background-color: lightcoral;
+    background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #bae0e6 0,
+    #bbe0e9 6.25%,
+    #bcdfeb 12.5%,
+    #bedfed 18.75%,
+    #c0deef 25%,
+    #c3ddf0 31.25%,
+    #c6dcf1 37.5%,
+    #c9dbf2 43.75%,
+    #cddaf2 50%,
+    #d1d9f2 56.25%,
+    #d5d8f1 62.5%,
+    #d9d7f0 68.75%,
+    #ddd6ee 75%,
+    #e1d5ed 81.25%,
+    #e4d4ea 87.5%,
+    #e8d3e8 93.75%,
+    #ebd2e5 100%
+  );
     width: 100%;
     height: 100%;
     display: grid;
@@ -56,6 +97,14 @@ main{
 img{
     width: 100%;
     height: 100%;
+    border: 10px solid #000;
+    object-fit: cover;
+    transition: all 0.8s linear;
+}
+
+.galeria-itens img:hover{
+    transform: scale(110%);
+    filter: grayscale(0%);
 }
 
 footer{
@@ -63,4 +112,5 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
 }
